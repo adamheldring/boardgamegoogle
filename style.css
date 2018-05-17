@@ -1,0 +1,36 @@
+/* My CSS */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+div#myMainBox {
+  margin-top: 160px;
+}
+div#myResultBox {
+  visibility: hidden;
+}
+img.myGameCovers {
+  max-width: 100%;
+  height: auto;
+}
+input {
+  background-color: white;
+  color: #555555;
+  font-size: 16px;
+}
+input#mySearchField {
+  margin: 3px 0px;
+  padding: 3px 1px;
+  border: none;
+  width: 50%;
+  max-width: 500px;
+}
+input#mySearchButton {
+  margin: 0px;
+  padding: 3px;
+  border-radius: 5px;
+  width: 94px;
+  font-weight: bold;
+}

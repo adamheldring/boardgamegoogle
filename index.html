@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- MY CODE STARTS HERE:-->
+  <title>Board Game Google - My solution for Technigo Coding Challenge</title>
+
+  <!-- A little responsive touch to be used with the picture-tag below to change the logo for smaller screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google font Montserrat -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- External script file for some actual JavaScript and very basic functionality -->
+  <script type="text/javascript" src="myScript.js"></script>
+</head>
+
+<body>
+  <div id="myMainBox">
+    <picture>
+      <source srcset="MobileDiceLogo.png" media="(max-width: 600px)">
+      <img src="BoardGameGoogleLogoBlack.png" alt='Google Logo' id="myLogo"></br>
+    </picture>
+    <input type="text" id="mySearchField" value="board games">
+    <input type="submit" id="mySearchButton" value="SEARCH" onclick="mySearch()">
+  </div>
+  <h3 id="myHeader">Welcome</h3>
+  <div id="myResultBox">
+    <img src="7wonders600h.jpg" alt='7 Wonders' class="myGameCovers"></br>
+    <img src="dominion600h.jpg" alt='Dominion' class="myGameCovers"></br>
+  </div>
+</body>
+</html>
